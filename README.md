@@ -37,9 +37,35 @@ ready to hand out.
   printing adds blank backs where needed, so every copy starts on a new sheet.
 - **Your instruments.** There's a built-in wind-band catalog of 61 instruments, from piccolo to bass
   guitar. Add your own, with the names to recognize them by.
-- **Private.** Everything happens on your Mac. Copista never changes your PDFs, and it doesn't use
-  the network.
+- **Private.** Everything happens on your Mac, and Copista never changes your PDFs. The only thing it
+  connects to is this repository, to look for updates.
+- **Keeps itself up to date.** New versions install themselves when you quit, if you like. Copista uses
+  [Sparkle](https://sparkle-project.org) for this.
 - **English and Swedish.**
+
+## Installing
+
+1. Download `Copista-<version>.dmg` from the
+   [latest release](https://github.com/WheresMarco/Copista/releases/latest).
+2. Open the disk image and drag Copista to Applications.
+3. Open Copista. The first time, macOS says it can't check the app for malicious software and won't
+   open it. That's because Copista isn't notarized by Apple, which needs a paid developer
+   membership. To open it anyway:
+   - Click **Done**, then open **System Settings → Privacy & Security**.
+   - Scroll down to "Copista was blocked…" and click **Open Anyway**, then confirm.
+
+   You only do this once. Updates install without asking again.
+
+Or, in Terminal: `xattr -dr com.apple.quarantine /Applications/Copista.app`
+
+## Updates
+
+The second time you open Copista, it asks whether to look for updates automatically. Choosing that
+means it checks GitHub once a day, and you can let it install new versions by itself when you quit.
+Change this under **Copista → Settings → Updates**, or check by hand with **Copista → Check for
+Updates…**
+
+Each update is signed, and Copista only installs one whose signature matches the key built into it.
 
 ## Requirements
 
@@ -58,8 +84,8 @@ open Copista.xcodeproj
 
 Choose the **Copista** scheme and press ⌘R.
 
-No signing team is set in the project, so Xcode signs the app to run on your own Mac. To share a
-build with others, set your own team and bundle identifier under *Signing & Capabilities*.
+No signing team is set in the project, so Xcode signs the app to run on your own Mac. Builds from
+Xcode don't look for updates; only released builds do.
 
 ## Using it
 
@@ -106,7 +132,7 @@ apart, and a "complete set" PDF that duplicates separate part files is skipped. 
 
 | Folder | What's in it |
 | --- | --- |
-| `Copista/App` | `AppModel`: imported files, songs, the print job, undo |
+| `Copista/App` | `AppModel`: imported files, songs, the print job, undo. `AppUpdater`: Sparkle |
 | `Copista/Detection` | Grouping files into songs, reading pages, matching instrument names |
 | `Copista/Models` | Songs, parts, pages, instruments |
 | `Copista/Output` | Planning and drawing the printed sheets, preflight checks, printing |
@@ -114,7 +140,9 @@ apart, and a "complete set" PDF that duplicates separate part files is skipped. 
 | `Copista/Views` | SwiftUI views |
 | `Copista/Resources` | Built-in instruments, string catalogs (English and Swedish) |
 | `CopistaTests` | Swift Testing suites, with PDFs generated on the fly |
+| `Config` | `Info.plist` keys and entitlements for updates |
 | `Design` | The script that draws the app icon |
+| `scripts` | `release.sh`, which builds and publishes a release |
 
 ## Contributing
 

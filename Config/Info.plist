@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Sparkle: where updates are announced, and the key their signatures are checked with. Both
+	     are build settings, so a test build can point elsewhere. -->
+	<key>SUFeedURL</key>
+	<string>$(SPARKLE_FEED_URL)</string>
+	<key>SUPublicEDKey</key>
+	<string>$(SPARKLE_PUBLIC_ED_KEY)</string>
+	<!-- A sandboxed app can't replace itself; Sparkle's installer service does it from outside. -->
+	<key>SUEnableInstallerLauncherService</key>
+	<true/>
+</dict>
+</plist>

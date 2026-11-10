@@ -6,6 +6,10 @@
 	objectVersion = 90;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5A9C1E0000000000000000A3 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 5A9C1E0000000000000000A2 /* Sparkle */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A9EA0DEA30651EBF00F0AE9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -38,6 +42,7 @@
 		000000000000000130000000 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				5A9C1E0000000000000000A3 /* Sparkle in Frameworks */,
 			);
 		};
 		A9EA0DE330651EBF00F0AE9C /* Frameworks */ = {
@@ -83,6 +88,9 @@
 				000000000000000000000010 /* Copista */,
 			);
 			name = Copista;
+			packageProductDependencies = (
+				5A9C1E0000000000000000A2 /* Sparkle */,
+			);
 			productName = MyApp;
 			productReference = 000000000000000000000120 /* Copista.app */;
 			productType = "com.apple.product-type.application";
@@ -137,6 +145,9 @@
 			);
 			mainGroup = 000000000000000000000001;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5A9C1E0000000000000000A1 /* XCRemoteSwiftPackageReference "Sparkle" */,
+			);
 			preferredProjectObjectVersion = 90;
 			productRefGroup = 000000000000000000000020 /* Products */;
 			projectDirPath = "";
@@ -320,6 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/Copista.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
@@ -327,7 +339,10 @@
 				ENABLE_RESOURCE_ACCESS_PRINTING = YES;
 				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Copista;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Marco Sommer. MIT License.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -341,11 +356,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.wheresmar.Copista;
 				PRODUCT_NAME = Copista;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
+				SPARKLE_FEED_URL = "https://github.com/WheresMarco/Copista/releases/latest/download/appcast.xml";
+				SPARKLE_PUBLIC_ED_KEY = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -361,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/Copista.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
@@ -368,7 +386,10 @@
 				ENABLE_RESOURCE_ACCESS_PRINTING = YES;
 				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Copista;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Marco Sommer. MIT License.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -382,11 +403,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.wheresmar.Copista;
 				PRODUCT_NAME = Copista;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
+				SPARKLE_FEED_URL = "https://github.com/WheresMarco/Copista/releases/latest/download/appcast.xml";
+				SPARKLE_PUBLIC_ED_KEY = "DbRDc1W+tM7eSG1x+SJIEfqlioqSx441on+FtYPVnVY=";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -475,6 +498,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A9C1E0000000000000000A1 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.10.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A9C1E0000000000000000A2 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A9C1E0000000000000000A1 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 000000000000000000000000 /* Project object */;
 }

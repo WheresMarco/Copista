@@ -75,6 +75,44 @@ It writes both the Liquid Glass icon (`Copista/AppIcon.icon`) and the classic on
 (`Copista/Assets.xcassets/AppIcon.appiconset`). It uses no SF Symbols, which Apple doesn't license
 for use in app icons.
 
+## Releasing
+
+Releases go on GitHub, and Copista updates itself from there with
+[Sparkle](https://sparkle-project.org).
+
+- **The feed:** each release carries an `appcast.xml`, and the app reads it from the latest release
+  (`releases/latest/download/appcast.xml`). So whatever release is published last is the update everyone
+  gets. Drafts and pre-releases don't count.
+- **The key:** updates are signed with an EdDSA key. Its public half is `SPARKLE_PUBLIC_ED_KEY` in
+  the Release build settings. Its private half is in the maintainer's login keychain, under Sparkle's
+  `ed25519` account, made with Sparkle's `generate_keys`.
+- **If the key is lost,** the apps people have installed can't verify updates any more. Back it up
+  somewhere safe and keep it out of the repository:
+
+  ```sh
+  build/DerivedData/SourcePackages/artifacts/sparkle/Sparkle/bin/generate_keys -x copista-update-key.txt
+  ```
+
+  To release from another Mac, import that file there with `generate_keys -f`.
+
+To make a release:
+
+1. Add a `## 1.1.0` section to `CHANGELOG.md`, saying what's new for the people using Copista.
+2. Commit and push.
+3. Run `scripts/release.sh 1.1.0`. It builds the app and makes the disk image, the update zip and a
+   signed `appcast.xml`, then uploads them as a draft release. `DRY_RUN=1` builds everything
+   without uploading.
+4. Check the draft on GitHub and publish it. From then on, Copista offers the update.
+
+Each build is numbered by the number of commits, which Sparkle compares to tell newer from older.
+The version in `MARKETING_VERSION` is only for Xcode's own builds; the script sets the real one.
+
+Releases are signed to run locally rather than with a Developer ID, so they aren't notarized. People
+approve the app once when they first open it (see the README); updates don't ask again. To notarize
+later: join the Apple Developer Program, set the team, sign with Developer ID, turn on the Hardened
+Runtime, and send the archive through `notarytool` before packaging. The Hardened Runtime stays off
+until then, because it can stop an ad-hoc signed app from loading Sparkle.
+
 ## Pull requests
 
 - Keep each pull request to one change, with a test where it can have one.

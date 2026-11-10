@@ -11,6 +11,8 @@ struct SettingsView: View {
                 .tabItem { Label("Instruments", systemImage: "music.quarternote.3") }
             PrintDefaultsForm(combinedPartsUsesSum: $settings.combinedPartsUsesSum, printDefaults: $settings.printDefaults)
                 .tabItem { Label("Printing", systemImage: "printer") }
+            UpdatesSettings()
+                .tabItem { Label("Updates", systemImage: "arrow.down.circle") }
         }
         .frame(minWidth: 760, minHeight: 540)
         .navigationTitle(Text("Settings", comment: "Settings window title"))
@@ -272,6 +274,34 @@ private struct InstrumentDetail: View {
                 settings.updateInstrument(updated)
             }
         )
+    }
+}
+
+private struct UpdatesSettings: View {
+    @Environment(AppUpdater.self) private var updater
+
+    var body: some View {
+        @Bindable var updater = updater
+        Form {
+            Section {
+                Toggle("Check for updates automatically", isOn: $updater.checksAutomatically)
+                Toggle("Download and install them automatically", isOn: $updater.downloadsAutomatically)
+                    .disabled(!updater.checksAutomatically)
+            } footer: {
+                Text("Copista looks for a new version on GitHub once a day. Nothing else is sent, and nothing about your music.")
+            }
+            Section {
+                LabeledContent("Version", value: AppUpdater.versionDescription)
+                Button("Check Now") { updater.checkForUpdates() }
+                    .disabled(!updater.canCheckForUpdates)
+            } footer: {
+                if !updater.isEnabled {
+                    Text("This build of Copista doesn't look for updates. Downloaded releases do.")
+                }
+            }
+        }
+        .formStyle(.grouped)
+        .disabled(!updater.isEnabled)
     }
 }
 

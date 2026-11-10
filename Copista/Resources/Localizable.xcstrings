@@ -468,6 +468,36 @@
         }
       }
     },
+    "Check Now" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sök nu"
+          }
+        }
+      }
+    },
+    "Check for Updates…" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sök efter uppdateringar…"
+          }
+        }
+      }
+    },
+    "Check for updates automatically" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sök efter uppdateringar automatiskt"
+          }
+        }
+      }
+    },
     "Choose…" : {
       "localizations" : {
         "en" : {
@@ -571,6 +601,16 @@
         }
       }
     },
+    "Copista looks for a new version on GitHub once a day. Nothing else is sent, and nothing about your music." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copista letar efter en ny version på GitHub en gång om dagen. Inget annat skickas, och inget om din musik."
+          }
+        }
+      }
+    },
     "Copista will stop recognizing it. Pages already sorted for it keep it." : {
       "localizations" : {
         "sv" : {
@@ -617,6 +657,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dubbelsidigt"
+          }
+        }
+      }
+    },
+    "Download and install them automatically" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hämta och installera dem automatiskt"
           }
         }
       }
@@ -1998,6 +2048,16 @@
         }
       }
     },
+    "This build of Copista doesn't look for updates. Downloaded releases do." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den här versionen av Copista söker inte efter uppdateringar. Nedladdade versioner gör det."
+          }
+        }
+      }
+    },
     "This song includes a score (%lld pages). Include it in the print?" : {
       "localizations" : {
         "en" : {
@@ -2072,12 +2132,32 @@
         }
       }
     },
+    "Updates" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uppdateringar"
+          }
+        }
+      }
+    },
     "Usually one per musician. Set 0 for instruments you don't have, and those parts won't print." : {
       "localizations" : {
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oftast ett per musiker. Ange 0 för instrument ni inte har, så skrivs de stämmorna inte ut."
+          }
+        }
+      }
+    },
+    "Version" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
           }
         }
       }

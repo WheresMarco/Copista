@@ -3,6 +3,7 @@ import SwiftUI
 @main
 struct CopistaApp: App {
     @State private var model = AppModel()
+    @State private var updater = AppUpdater()
 
     init() {
         QuickLookFiles.removeAll()
@@ -20,6 +21,10 @@ struct CopistaApp: App {
         .defaultSize(width: 1180, height: 780)
         .windowToolbarStyle(.unified)
         .commands {
+            CommandGroup(after: .appInfo) {
+                Button("Check for Updates…") { updater.checkForUpdates() }
+                    .disabled(!updater.canCheckForUpdates)
+            }
             CommandGroup(replacing: .newItem) {
                 Button("Add Files…") { model.isFileImporterPresented = true }
                     .keyboardShortcut("o", modifiers: .command)
@@ -40,6 +45,7 @@ struct CopistaApp: App {
         Settings {
             SettingsView()
                 .environment(model.settings)
+                .environment(updater)
         }
     }
 }
