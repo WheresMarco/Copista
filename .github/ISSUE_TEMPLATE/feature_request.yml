@@ -1,0 +1,11 @@
+name: An idea
+description: Something Copista could do, or do better.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help
+      description: What you're trying to get done, and what gets in the way today.
+    validations:
+      required: true

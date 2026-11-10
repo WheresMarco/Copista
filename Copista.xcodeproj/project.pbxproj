@@ -6,8 +6,19 @@
 	objectVersion = 90;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		A9EA0DEA30651EBF00F0AE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000100000000;
+			remoteInfo = Copista;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* Copista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Copista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EA0DE630651EBF00F0AE9C /* CopistaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopistaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,20 @@
 			path = Copista;
 			sourceTree = "<group>";
 		};
+		A9EA0DE730651EBF00F0AE9C /* CopistaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CopistaTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		000000000000000130000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		A9EA0DE330651EBF00F0AE9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
 			);
@@ -31,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				000000000000000000000010 /* Copista */,
+				A9EA0DE730651EBF00F0AE9C /* CopistaTests */,
 				000000000000000000000020 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				000000000000000000000120 /* Copista.app */,
+				A9EA0DE630651EBF00F0AE9C /* CopistaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +87,27 @@
 			productReference = 000000000000000000000120 /* Copista.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A9EA0DE530651EBF00F0AE9C /* CopistaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9EA0DEC30651EBF00F0AE9C /* Build configuration list for PBXNativeTarget "CopistaTests" */;
+			buildPhases = (
+				A9EA0DE230651EBF00F0AE9C /* Sources */,
+				A9EA0DE330651EBF00F0AE9C /* Frameworks */,
+				A9EA0DE430651EBF00F0AE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9EA0DEB30651EBF00F0AE9C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A9EA0DE730651EBF00F0AE9C /* CopistaTests */,
+			);
+			name = CopistaTests;
+			productName = CopistaTests;
+			productReference = A9EA0DE630651EBF00F0AE9C /* CopistaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -71,11 +115,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2630;
+				LastSwiftUpdateCheck = 2700;
 				LastUpgradeCheck = 2700;
 				TargetAttributes = {
 					000000000000000100000000 = {
 						CreatedOnToolsVersion = 26.3;
+					};
+					A9EA0DE530651EBF00F0AE9C = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 000000000000000100000000;
 					};
 				};
 			};
@@ -95,12 +143,18 @@
 			projectRoot = "";
 			targets = (
 				000000000000000100000000 /* Copista */,
+				A9EA0DE530651EBF00F0AE9C /* CopistaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		000000000000000140000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		A9EA0DE430651EBF00F0AE9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
 			);
@@ -113,7 +167,20 @@
 			files = (
 			);
 		};
+		A9EA0DE230651EBF00F0AE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9EA0DEB30651EBF00F0AE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000000000000000100000000 /* Copista */;
+			targetProxy = A9EA0DEA30651EBF00F0AE9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		000000000000000011000000 /* Debug configuration for PBXProject "Copista" */ = {
@@ -251,6 +318,8 @@
 		000000000000000111000000 /* Debug configuration for PBXNativeTarget "Copista" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
@@ -273,7 +342,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "devplaceholder.$(PROJECT_UNIQUE_VALUE:identifier).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = co.wheresmar.Copista;
 				PRODUCT_NAME = Copista;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
@@ -290,6 +359,8 @@
 		000000000000000112000000 /* Release configuration for PBXNativeTarget "Copista" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
@@ -312,7 +383,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "devplaceholder.$(PROJECT_UNIQUE_VALUE:identifier).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = co.wheresmar.Copista;
 				PRODUCT_NAME = Copista;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
@@ -323,6 +394,56 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 6;
+			};
+			name = Release;
+		};
+		A9EA0DED30651EBF00F0AE9C /* Debug configuration for PBXNativeTarget "CopistaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.wheresmar.Copista.CopistaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Copista.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Copista";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		A9EA0DEE30651EBF00F0AE9C /* Release configuration for PBXNativeTarget "CopistaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.wheresmar.Copista.CopistaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Copista.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Copista";
+				XROS_DEPLOYMENT_TARGET = 27.0;
 			};
 			name = Release;
 		};
@@ -342,6 +463,14 @@
 			buildConfigurations = (
 				000000000000000111000000 /* Debug configuration for PBXNativeTarget "Copista" */,
 				000000000000000112000000 /* Release configuration for PBXNativeTarget "Copista" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		A9EA0DEC30651EBF00F0AE9C /* Build configuration list for PBXNativeTarget "CopistaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9EA0DED30651EBF00F0AE9C /* Debug configuration for PBXNativeTarget "CopistaTests" */,
+				A9EA0DEE30651EBF00F0AE9C /* Release configuration for PBXNativeTarget "CopistaTests" */,
 			);
 			defaultConfigurationName = Release;
 		};

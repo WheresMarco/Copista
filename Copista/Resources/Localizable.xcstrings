@@ -1,0 +1,2248 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {},
+    "%@ in “%@” is set to 0 copies and won't print." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ in “%2$@” is set to 0 copies and won't print."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ i ”%2$@” har 0 exemplar och skrivs inte ut."
+          }
+        }
+      }
+    },
+    "%@, page %lld" : {
+      "comment" : "VoiceOver label for a page thumbnail",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, page %2$lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, sida %2$lld"
+          }
+        }
+      }
+    },
+    "%@, page %lld, low confidence" : {
+      "comment" : "VoiceOver label for a page thumbnail with an uncertain instrument match",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, page %2$lld, low confidence"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, sida %2$lld, osäker identifiering"
+          }
+        }
+      }
+    },
+    "%lld" : {},
+    "%lld copies" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld copies"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld exemplar"
+          }
+        }
+      }
+    },
+    "%lld pages" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld page"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld pages"
+                }
+              }
+            }
+          }
+        },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld sida"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld sidor"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld pages each" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld pages each"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld sidor var"
+          }
+        }
+      }
+    },
+    "%lld parts" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld part"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld parts"
+                }
+              }
+            }
+          }
+        },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld stämma"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld stämmor"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld songs" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld song"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld songs"
+                }
+              }
+            }
+          }
+        },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld låt"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld låtar"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld songs, each a PDF of its own" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld låtar, var och en en egen PDF"
+          }
+        }
+      }
+    },
+    "A page couldn't be read from its PDF." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En sida kunde inte läsas från sin PDF."
+          }
+        }
+      }
+    },
+    "A part like Horn 1/3 is one part for both instruments. Say Horn 1 is set to 3 copies and Horn 3 to 2. If they share a stand, the higher number is enough. If each player needs their own, add them up." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En stämma som Horn 1/3 är en enda stämma för båda instrumenten. Säg att Horn 1 har 3 exemplar och Horn 3 har 2. Delar de notställ räcker det högsta antalet. Behöver varje musiker ett eget, lägg ihop dem."
+          }
+        }
+      }
+    },
+    "Add" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till"
+          }
+        }
+      }
+    },
+    "Add Files…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Files…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till filer…"
+          }
+        }
+      }
+    },
+    "Add a name" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till ett namn"
+          }
+        }
+      }
+    },
+    "Add an instrument of your own" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till ett eget instrument"
+          }
+        }
+      }
+    },
+    "Add them up: 5 copies" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Summan: 5 exemplar"
+          }
+        }
+      }
+    },
+    "Add your first songs whenever you're ready." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till dina första låtar när du är redo."
+          }
+        }
+      }
+    },
+    "Added by you" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tillagt av dig"
+          }
+        }
+      }
+    },
+    "Adds a blank back after a part with an odd number of pages, so each copy starts on a new sheet. Turn on double-sided printing in the print dialog too." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägger till en tom baksida efter stämmor med udda sidantal, så att varje exemplar börjar på ett nytt ark. Slå på dubbelsidig utskrift i utskriftsdialogen också."
+          }
+        }
+      }
+    },
+    "Adds a blank back after a part with an odd number of pages, so every copy starts on a new sheet." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägger till en tom baksida efter stämmor med udda sidantal, så att varje exemplar börjar på ett nytt ark."
+          }
+        }
+      }
+    },
+    "All Are Right" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla är rätt"
+          }
+        }
+      }
+    },
+    "All of them will print. If these pages belong to another instrument, select them and change it. If this is right, keep them." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla skrivs ut. Hör de här sidorna till ett annat instrument, markera dem och ändra. Stämmer det, behåll dem."
+          }
+        }
+      }
+    },
+    "Analyzing %@: page %lld of %lld" : {
+      "comment" : "Progress label while one PDF's pages are being read",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Analyzing %1$@: page %2$lld of %3$lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Analyserar %1$@: sida %2$lld av %3$lld"
+          }
+        }
+      }
+    },
+    "Analyzing %@…" : {
+      "comment" : "Progress label while a song's PDFs are being analyzed",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Analyzing %@…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Analyserar %@…"
+          }
+        }
+      }
+    },
+    "Back" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tillbaka"
+          }
+        }
+      }
+    },
+    "Blank or excluded (won't print)" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tomma eller uteslutna (skrivs inte ut)"
+          }
+        }
+      }
+    },
+    "Brass" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bleckblås"
+          }
+        }
+      }
+    },
+    "Built in. The name follows the language Copista is in." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inbyggt. Namnet följer Copistas språk."
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
+          }
+        }
+      }
+    },
+    "Change Copies" : {
+      "comment" : "Undo action name",
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ändra antal"
+          }
+        }
+      }
+    },
+    "Change these later under Copista > Settings, or go through this guide again from the Help menu." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan ändra det här senare under Copista > Inställningar, eller gå igenom guiden igen från Hjälp-menyn."
+          }
+        }
+      }
+    },
+    "Choose…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj…"
+          }
+        }
+      }
+    },
+    "Click to mark a page, ⌘- or ⇧-click for several. Drag to move. Space for a closer look." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klicka för att markera, ⌘- eller ⇧-klicka för flera. Dra för att flytta. Mellanslag visar närbild."
+          }
+        }
+      }
+    },
+    "Confirm Pages" : {
+      "comment" : "Undo action name",
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekräfta sidor"
+          }
+        }
+      }
+    },
+    "Continue" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsätt"
+          }
+        }
+      }
+    },
+    "Copies" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copies"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antal"
+          }
+        }
+      }
+    },
+    "Copies a new print job starts with" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antal som ett nytt utskriftsjobb börjar med"
+          }
+        }
+      }
+    },
+    "Copies of a part" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antal exemplar av stämman"
+          }
+        }
+      }
+    },
+    "Copista" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copista"
+          }
+        }
+      }
+    },
+    "Copista barely read the name, so the instrument is a guess. What it read is shown under each page. Change the wrong ones, then confirm the rest." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copista kunde knappt läsa namnet, så instrumentet är en gissning. Det som lästes visas under varje sida. Ändra de som är fel och bekräfta sedan resten."
+          }
+        }
+      }
+    },
+    "Copista will stop recognizing it. Pages already sorted for it keep it." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copista slutar känna igen det. Sidor som redan sorterats dit behåller det."
+          }
+        }
+      }
+    },
+    "Copista will stop recognizing it. You can bring it back with Restore Built-in Instruments." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copista slutar känna igen det. Du kan få tillbaka det med Återställ inbyggda instrument."
+          }
+        }
+      }
+    },
+    "Deselect" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avmarkera"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klar"
+          }
+        }
+      }
+    },
+    "Double-sided" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dubbelsidigt"
+          }
+        }
+      }
+    },
+    "Drop PDFs or folders here" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drop PDFs or folders here"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Släpp PDF:er eller mappar här"
+          }
+        }
+      }
+    },
+    "Drop in PDFs or whole folders, scanned or not. Files added together become one song, and Copista works out which page belongs to which instrument." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Släpp in PDF:er eller hela mappar, inskannade eller inte. Filer som läggs till tillsammans blir en låt, och Copista räknar ut vilken sida som hör till vilket instrument."
+          }
+        }
+      }
+    },
+    "Drop zone. Drop PDFs or folders here, or use Add Files." : {
+      "comment" : "VoiceOver label for the import drop zone",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drop zone. Drop PDFs or folders here, or use Add Files."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Släppzon. Släpp PDF:er eller mappar här, eller använd Lägg till filer."
+          }
+        }
+      }
+    },
+    "Each song is sent to the printer as its own job." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varje låt skickas till skrivaren som ett eget jobb."
+          }
+        }
+      }
+    },
+    "Exclude" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uteslut"
+          }
+        }
+      }
+    },
+    "Exclude Pages" : {
+      "comment" : "Undo action name",
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uteslut sidor"
+          }
+        }
+      }
+    },
+    "Exclude page" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exclude page"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uteslut sidan"
+          }
+        }
+      }
+    },
+    "Export Settings…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Export Settings…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportera inställningar…"
+          }
+        }
+      }
+    },
+    "Files added together become one song. A folder is sorted into songs for you." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filer som läggs till tillsammans blir en låt. En mapp sorteras i låtar åt dig."
+          }
+        }
+      }
+    },
+    "From a pile of PDFs to a stack of parts ready to print, with the right number of copies for everyone." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Från en hög PDF:er till en bunt stämmor redo att skriva ut, med rätt antal exemplar till alla."
+          }
+        }
+      }
+    },
+    "Give at least one part some copies in the Copies step." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ge minst en stämma några exemplar under Antal."
+          }
+        }
+      }
+    },
+    "Has issues" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Has issues"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Har problem"
+          }
+        }
+      }
+    },
+    "How do you print?" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hur skriver ni ut?"
+          }
+        }
+      }
+    },
+    "How many copies a new print job starts with. With 0 the instrument is left out, though you can still give it copies in a single job." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hur många kopior ett nytt utskriftsjobb börjar med. Med 0 utelämnas instrumentet, men du kan ändå ge det kopior i ett enskilt jobb."
+          }
+        }
+      }
+    },
+    "How many copies of each part?" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hur många exemplar av varje stämma?"
+          }
+        }
+      }
+    },
+    "Import Settings…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import Settings…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importera inställningar…"
+          }
+        }
+      }
+    },
+    "Include Score" : {
+      "comment" : "Undo action name",
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta med partitur"
+          }
+        }
+      }
+    },
+    "Include the score when a song has one" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta med partituret när en låt har ett"
+          }
+        }
+      }
+    },
+    "Instrument" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instrument"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instrument"
+          }
+        }
+      }
+    },
+    "Instruments" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instrument"
+          }
+        }
+      }
+    },
+    "Keep" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Behåll"
+          }
+        }
+      }
+    },
+    "Kept with the part before them, since no instrument was found in the top corners. If what's shown under a page is a new part's name, select that page and choose the instrument. The pages after it follow." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De ligger kvar i stämman före, eftersom inget instrument hittades i de övre hörnen. Om det som står under en sida är namnet på en ny stämma: markera sidan och välj instrument. Sidorna efter följer med."
+          }
+        }
+      }
+    },
+    "Looked for at the top of each page, and in file names. Any language; capitals and accents don't matter." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letas efter överst på varje sida och i filnamn. Vilket språk som helst; versaler och accenter spelar ingen roll."
+          }
+        }
+      }
+    },
+    "Mark as Score" : {
+      "comment" : "Undo action name",
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markera som partitur"
+          }
+        }
+      }
+    },
+    "Mark as score" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mark as score"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markera som partitur"
+          }
+        }
+      }
+    },
+    "More" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mer"
+          }
+        }
+      }
+    },
+    "More than one part for %@" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flera stämmor för %@"
+          }
+        }
+      }
+    },
+    "Move Earlier" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flytta tidigare"
+          }
+        }
+      }
+    },
+    "Move Later" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flytta senare"
+          }
+        }
+      }
+    },
+    "Move Pages" : {
+      "comment" : "Undo action name",
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flytta sidor"
+          }
+        }
+      }
+    },
+    "Name" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Namn"
+          }
+        }
+      }
+    },
+    "Names Copista recognizes" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Namn som Copista känner igen"
+          }
+        }
+      }
+    },
+    "New Instrument" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nytt instrument"
+          }
+        }
+      }
+    },
+    "New print jobs" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nya utskriftsjobb"
+          }
+        }
+      }
+    },
+    "No PDF files were found there." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga PDF-filer hittades där."
+          }
+        }
+      }
+    },
+    "No name found" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inget namn hittat"
+          }
+        }
+      }
+    },
+    "No songs yet" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga låtar än"
+          }
+        }
+      }
+    },
+    "Nothing needs doing in this song." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inget behöver göras i den här låten."
+          }
+        }
+      }
+    },
+    "Nothing to print" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inget att skriva ut"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "Open in Preview" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open in Preview"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öppna i Förhandsvisning"
+          }
+        }
+      }
+    },
+    "Other" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Övrigt"
+          }
+        }
+      }
+    },
+    "Page Size" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sidstorlek"
+          }
+        }
+      }
+    },
+    "Pages each" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pages each"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sidor var"
+          }
+        }
+      }
+    },
+    "Pages it isn't sure about are marked, so you only need to look at those." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sidor som Copista är osäker på markeras, så du behöver bara titta på dem."
+          }
+        }
+      }
+    },
+    "Pages of music: %lld · Sheets of paper: %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pages of music: %1$lld · Sheets of paper: %2$lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notsidor: %1$lld · Pappersark: %2$lld"
+          }
+        }
+      }
+    },
+    "Pages that need checking (%lld)" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sidor att kontrollera (%lld)"
+          }
+        }
+      }
+    },
+    "Pages that need checking. They will print, but may be wrong." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sidor att kontrollera. De skrivs ut, men kan vara fel."
+          }
+        }
+      }
+    },
+    "Pages with no instrument (%lld)" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sidor utan instrument (%lld)"
+          }
+        }
+      }
+    },
+    "Pages with no instrument. They won't print." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sidor utan instrument. De skrivs inte ut."
+          }
+        }
+      }
+    },
+    "Pages with unfamiliar words at the top (%lld)" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sidor med okända ord överst (%lld)"
+          }
+        }
+      }
+    },
+    "Paper" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papper"
+          }
+        }
+      }
+    },
+    "Parts shared by two instruments" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stämmor som delas av två instrument"
+          }
+        }
+      }
+    },
+    "Percussion" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slagverk"
+          }
+        }
+      }
+    },
+    "Print" : {
+      "comment" : "Filename of a print job with several songs",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Print"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ut"
+          }
+        }
+      }
+    },
+    "Print double-sided" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ut dubbelsidigt"
+          }
+        }
+      }
+    },
+    "Printing" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utskrift"
+          }
+        }
+      }
+    },
+    "Print…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Print…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ut…"
+          }
+        }
+      }
+    },
+    "Quick Look" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snabbvisning"
+          }
+        }
+      }
+    },
+    "Read: %@" : {
+      "comment" : "Under a page: the text OCR read as the part's name",
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Läste: %@"
+          }
+        }
+      }
+    },
+    "Remember this name" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remember this name"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom ihåg namnet"
+          }
+        }
+      }
+    },
+    "Remove" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort"
+          }
+        }
+      }
+    },
+    "Remove Song" : {
+      "comment" : "Undo action name",
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort låt"
+          }
+        }
+      }
+    },
+    "Remove from Print Job" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort från utskriften"
+          }
+        }
+      }
+    },
+    "Remove the selected instrument" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort det markerade instrumentet"
+          }
+        }
+      }
+    },
+    "Remove “%@”?" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort ”%@”?"
+          }
+        }
+      }
+    },
+    "Rename" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Byt namn"
+          }
+        }
+      }
+    },
+    "Rename Song" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Byt namn på låten"
+          }
+        }
+      }
+    },
+    "Rename…" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Byt namn…"
+          }
+        }
+      }
+    },
+    "Reorder Pages" : {
+      "comment" : "Undo action name",
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ändra ordning på sidor"
+          }
+        }
+      }
+    },
+    "Reorder Songs" : {
+      "comment" : "Undo action name",
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ändra ordning på låtar"
+          }
+        }
+      }
+    },
+    "Reset to defaults" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset to defaults"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställ standard"
+          }
+        }
+      }
+    },
+    "Restore" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställ"
+          }
+        }
+      }
+    },
+    "Restore Built-in Instruments…" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställ inbyggda instrument…"
+          }
+        }
+      }
+    },
+    "Restore the built-in instruments?" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställa de inbyggda instrumenten?"
+          }
+        }
+      }
+    },
+    "Review" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Review"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Granska"
+          }
+        }
+      }
+    },
+    "Rhythm Section" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Komp"
+          }
+        }
+      }
+    },
+    "Rotate" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rotate"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rotera"
+          }
+        }
+      }
+    },
+    "Rotate Pages" : {
+      "comment" : "Undo action name",
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rotera sidor"
+          }
+        }
+      }
+    },
+    "Save Here" : {
+      "comment" : "Button in the folder picker for saving one PDF per song",
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara här"
+          }
+        }
+      }
+    },
+    "Save PDFs…" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara PDF:er…"
+          }
+        }
+      }
+    },
+    "Save PDF…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save PDF…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara PDF…"
+          }
+        }
+      }
+    },
+    "Save as defaults" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save as defaults"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara som standard"
+          }
+        }
+      }
+    },
+    "Score" : {
+      "comment" : "Full orchestral score (partitur)",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Score"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partitur"
+          }
+        }
+      }
+    },
+    "Search" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sök"
+          }
+        }
+      }
+    },
+    "Search instruments" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sök instrument"
+          }
+        }
+      }
+    },
+    "Section" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sektion"
+          }
+        }
+      }
+    },
+    "Select All" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markera alla"
+          }
+        }
+      }
+    },
+    "Select Pages" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markera sidorna"
+          }
+        }
+      }
+    },
+    "Select a song" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a song"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj en låt"
+          }
+        }
+      }
+    },
+    "Select a song in the sidebar to see it here." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj en låt i sidofältet för att se den här."
+          }
+        }
+      }
+    },
+    "Select an instrument" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj ett instrument"
+          }
+        }
+      }
+    },
+    "Selected pages: %lld" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markerade sidor: %lld"
+          }
+        }
+      }
+    },
+    "Set All to 0" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sätt alla till 0"
+          }
+        }
+      }
+    },
+    "Set All to 1" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sätt alla till 1"
+          }
+        }
+      }
+    },
+    "Set Instrument" : {
+      "comment" : "Undo action name",
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj instrument"
+          }
+        }
+      }
+    },
+    "Set instrument" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set instrument"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj instrument"
+          }
+        }
+      }
+    },
+    "Set instrument from here on" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ange instrument härifrån och framåt"
+          }
+        }
+      }
+    },
+    "Set the copies, check the list of warnings, and print or save a PDF." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ange antal exemplar, gå igenom varningarna och skriv ut eller spara en PDF."
+          }
+        }
+      }
+    },
+    "Setting up takes a minute. You can change everything later." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det tar en minut att ställa in. Du kan ändra allt senare."
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "comment" : "Settings window title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inställningar"
+          }
+        }
+      }
+    },
+    "Show" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visa"
+          }
+        }
+      }
+    },
+    "Show all instruments" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show all instruments"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visa alla instrument"
+          }
+        }
+      }
+    },
+    "Skip" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoppa över"
+          }
+        }
+      }
+    },
+    "Some files couldn't be used" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Några filer kunde inte användas"
+          }
+        }
+      }
+    },
+    "Songs" : {
+      "comment" : "Sidebar list of imported songs",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Songs"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Låtar"
+          }
+        }
+      }
+    },
+    "Songs you add show up here, in the order they'll print. Drag to reorder them." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Låtar du lägger till visas här, i den ordning de skrivs ut. Dra för att ändra ordningen."
+          }
+        }
+      }
+    },
+    "Start Over" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Börja om"
+          }
+        }
+      }
+    },
+    "Step" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steg"
+          }
+        }
+      }
+    },
+    "Stop recognizing this name" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sluta känna igen det här namnet"
+          }
+        }
+      }
+    },
+    "Strings" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stråk"
+          }
+        }
+      }
+    },
+    "The PDF is password protected." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PDF-filen är lösenordsskyddad."
+          }
+        }
+      }
+    },
+    "The file couldn't be read as a PDF." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filen kunde inte läsas som PDF."
+          }
+        }
+      }
+    },
+    "The higher number: 3 copies" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det högsta antalet: 3 exemplar"
+          }
+        }
+      }
+    },
+    "The print dialog couldn't be opened. Try Save PDF… instead." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utskriftsdialogen kunde inte öppnas. Prova Spara PDF… i stället."
+          }
+        }
+      }
+    },
+    "The print file couldn't be created." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utskriftsfilen kunde inte skapas."
+          }
+        }
+      }
+    },
+    "The score of “%@” isn't included." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partituret till ”%@” är inte med."
+          }
+        }
+      }
+    },
+    "Their names, copies and order go back to how Copista came. Instruments you added stay." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Namn, antal och ordning blir som när Copista var ny. Instrument du lagt till finns kvar."
+          }
+        }
+      }
+    },
+    "These are the starting point for every new print job. You can still change them for a single job." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det här är utgångsläget för varje ny utskrift. Du kan fortfarande ändra det för en enskild utskrift."
+          }
+        }
+      }
+    },
+    "These won't print until they have an instrument. Select them and choose one above, or exclude them. Double-click a page to also teach Copista the name." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De skrivs inte ut förrän de har ett instrument. Markera dem och välj ett ovan, eller uteslut dem. Dubbelklicka på en sida för att även lära Copista namnet."
+          }
+        }
+      }
+    },
+    "This Is Right" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det är rätt"
+          }
+        }
+      }
+    },
+    "This song includes a score (%lld pages). Include it in the print?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This song includes a score (%lld pages). Include it in the print?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Låten innehåller ett partitur (%lld sidor). Vill du skriva ut det?"
+          }
+        }
+      }
+    },
+    "Total pages" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total pages"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Totalt sidor"
+          }
+        }
+      }
+    },
+    "Total: %lld copies" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Totalt: %lld exemplar"
+          }
+        }
+      }
+    },
+    "Total: %lld pages" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total: %lld pages"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Totalt: %lld sidor"
+          }
+        }
+      }
+    },
+    "Unknown instrument" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown instrument"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Okänt instrument"
+          }
+        }
+      }
+    },
+    "Usually one per musician. Set 0 for instruments you don't have, and those parts won't print." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oftast ett per musiker. Ange 0 för instrument ni inte har, så skrivs de stämmorna inte ut."
+          }
+        }
+      }
+    },
+    "Welcome Guide" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välkomstguide"
+          }
+        }
+      }
+    },
+    "Welcome to Copista" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välkommen till Copista"
+          }
+        }
+      }
+    },
+    "What instrument is this page?" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vilket instrument är den här sidan?"
+          }
+        }
+      }
+    },
+    "What instrument is “%@”?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What instrument is “%@”?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vilket instrument är ”%@”?"
+          }
+        }
+      }
+    },
+    "Woodwinds" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Träblås"
+          }
+        }
+      }
+    },
+    "You're all set" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allt är klart"
+          }
+        }
+      }
+    },
+    "e.g. Klar 1" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "t.ex. Klar 1"
+          }
+        }
+      }
+    },
+    "–" : {},
+    "“%@” couldn't be opened. Has it been moved?" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%@” kunde inte öppnas. Har filen flyttats?"
+          }
+        }
+      }
+    },
+    "“%@” has more than one part for %@. All of them will print." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "“%1$@” has more than one part for %2$@. All of them will print."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@” har flera stämmor för %2$@. Alla skrivs ut."
+          }
+        }
+      }
+    },
+    "“%@” was skipped because “%@” also has the same parts as separate files." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "“%1$@” was skipped because “%2$@” also has the same parts as separate files."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@” hoppades över eftersom ”%2$@” också har samma stämmor som separata filer."
+          }
+        }
+      }
+    },
+    "“%@”: pages that were hard to read. Check their instruments in Review (%lld)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "“%1$@”: pages that were hard to read. Check their instruments in Review (%2$lld)."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”: sidor som var svåra att läsa. Kontrollera deras instrument under Granska (%2$lld)."
+          }
+        }
+      }
+    },
+    "“%@”: pages with no instrument won't print (%lld)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "“%1$@”: pages with no instrument won't print (%2$lld)."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”: sidor utan instrument skrivs inte ut (%2$lld)."
+          }
+        }
+      }
+    },
+    "“%@”: pages with unfamiliar words at the top, kept with the part before them (%lld)." : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”: sidor med okända ord överst, som ligger kvar i stämman före (%2$lld)."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

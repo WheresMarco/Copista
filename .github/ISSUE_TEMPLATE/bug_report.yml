@@ -1,0 +1,37 @@
+name: Something went wrong
+description: Copista did something it shouldn't have, or got pages wrong.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what Copista did, and what you expected instead.
+    validations:
+      required: true
+  - type: dropdown
+    id: step
+    attributes:
+      label: Where
+      options:
+        - Adding files
+        - Review (sorting pages into parts)
+        - Copies
+        - Print
+        - Settings
+        - Somewhere else
+    validations:
+      required: true
+  - type: textarea
+    id: pdf
+    attributes:
+      label: About the PDF
+      description: |
+        If it's about a particular file: is it a scan, or does it have text you can select? How are the
+        part names written at the top of the pages? Please don't attach music you don't have the rights
+        to share. A cropped screenshot of the top of a page is usually enough.
+  - type: input
+    id: versions
+    attributes:
+      label: macOS version
+      placeholder: e.g. macOS 26.1

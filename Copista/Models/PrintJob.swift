@@ -1,15 +1,7 @@
 import Foundation
 
-enum SortMode: String, Codable, CaseIterable {
-    case byInstrument
-    case bySong
-    case separateFiles
-}
-
-struct PrintJob: Codable {
+nonisolated struct PrintJob: Codable, Sendable {
     var copies: [UUID: Int]     // instrument id -> copy count for this job
-    var includeScore: Bool
     var scoreCopies: Int
-    var sortMode: SortMode
-    var songTitles: [String]    // song list, in the order they should be printed
+    var isDoubleSided: Bool     // each copy of a part must start on the front of a sheet
 }

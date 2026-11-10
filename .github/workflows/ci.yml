@@ -1,0 +1,31 @@
+name: Build and test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    # The project needs Xcode 27 or later. If the runner image doesn't have it yet, this is the
+    # line to change.
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use the newest Xcode on the runner
+        run: |
+          xcode=$(ls -d /Applications/Xcode*.app | sort -V | tail -n 1)
+          echo "Using $xcode"
+          sudo xcode-select -s "$xcode/Contents/Developer"
+          xcodebuild -version
+
+      # Signed to run locally: the tests run inside the sandboxed app, which needs a signature.
+      - name: Test
+        run: |
+          xcodebuild test \
+            -project Copista.xcodeproj \
+            -scheme Copista \
+            -destination 'platform=macOS' \
+            CODE_SIGN_IDENTITY=- \
+            DEVELOPMENT_TEAM=
